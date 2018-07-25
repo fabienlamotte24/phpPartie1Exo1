@@ -5,9 +5,11 @@
     <title>Exercice 1</title>
   </head>
   <body>
+    <p>
       <?php
         $name = 'lamotte';
-        echo '<p>'$name'</p>';
+        echo $name;
       ?>
+    </p>
   </body>
 </html>
